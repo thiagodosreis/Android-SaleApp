@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">HyperGarageSale</string>
+    <string name="title">Enter the title of the item</string>
+    <string name="price">Enter the price</string>
+    <string name="description">Enter the description of the item</string>
+    <string name="button_post">Post</string>
+    <string name="new_post_snackbar">Thanks for posting</string>
+    <string name="dialog_message">Do you really want to add a new post?</string>
+    <string name="dialog_title">New Post</string>
+    <string name="ok">Yes</string>
+    <string name="cancel">No</string>
+    <string name="title_activity_browse_posts">BrowsePostsActivity</string>
+    <string name="button_picture">Take Picture</string>
+    <string name="button_location">Get my location</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

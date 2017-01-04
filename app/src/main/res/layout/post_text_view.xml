@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_weight="1.5"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<ImageView
+    android:id="@+id/myPicture"
+    android:layout_width="100dp"
+    android:layout_height="100dp" />
+
+<TextView
+    android:id="@+id/titleView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_toRightOf="@+id/myPicture"
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:textSize="20sp"
+    />
+
+<TextView
+    android:id="@+id/priceView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/titleView"
+    android:layout_toRightOf="@+id/myPicture"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    android:textSize="18sp"
+    android:textStyle="normal|bold" />
+
+    <TextView
+        android:id="@+id/idItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleView"
+        android:layout_toRightOf="@+id/myPicture"
+        android:paddingLeft="16dp"
+        android:paddingTop="16dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        />
+<!-- works as a divider -->
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="2dp"
+    android:layout_marginBottom="1dp"
+    android:layout_marginTop="1dp"
+    android:background="@android:color/darker_gray"/>
+
+</RelativeLayout>
